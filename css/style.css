@@ -273,6 +273,9 @@ input[type=date] {
   text-decoration: none;
 }
 
+.navbar a:hover {
+  background-color: #347575;
+}
 
 /*Background Color and Font Stacks*/
 
