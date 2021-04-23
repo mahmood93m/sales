@@ -291,9 +291,6 @@ header {
   color: black;
 }
 
-div#about > html {
-  font-size: 1.125em;
-}
 .title{
   text-align: center;
   font-weight: bold;
@@ -332,7 +329,7 @@ div#about > html {
 }
 /*Home Page Specific CSS */
 
-div#slideShow{
+div#slider{
   max-width: 100%;
   max-height: 100%;
   margin: auto;
@@ -388,7 +385,7 @@ div#isud > p{
   text-align: left;
 }
 
-div#isudVideo{
+div#itmdVideo{
   max-height: 50%;
   max-width: 96%;
   margin: auto;
@@ -400,9 +397,7 @@ div#isudVideo{
   border: 0px;
 }
 
-
-
-.isudVideo{
+.itmdVideo{
   position: absolute;
   top: 0;
   left: 0;
@@ -412,27 +407,6 @@ div#isudVideo{
   margin-right: auto;
   display: block;
 }
-
-
-p.end{
-  padding-bottom: 10px;
-}
-
-img#DaU{
-  width: 100%;
-}
-
-p#DaUText{
-  margin-top: 5px;
-  margin-bottom: 18px;
-  font-size: 0.8em;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  color: #2F3648;
-  text-decoration: none;
-}
-
 footer{
   background-color: #1e4b58;
   color: white;
@@ -470,62 +444,12 @@ footer a:hover {
   margin-left: auto;
 }
 
-div#about  {
-    background-color: #2C7E97;
-    color: white;
-    text-align: left;
-    padding-bottom: 12px;
-    padding-right: 100px;
-    padding-left: 10px;
-    line-height: 30px;
-}
-
-div#about > h1 {
-  font-size: 1.4em;
-  font-weight: bold;
-  padding: 25px;
-  text-align: center;
-}
-div#about > h2 {
-  font: size 1.3em;
-  font-weight: bold;
-  padding: 25px;
-}
-
-div#about > h3 {
-  font-size:1.1em;
-  font-weight: bold;
-  padding: 10px;
-}
-
-div#about > p {
-  font: 1em sans-serif;
-  line-height: 2;
-  margin-top: 5px;
-  padding-top: 20px;
-  margin-left: 50px;
-  margin-right: 20px;
-  padding-bottom: 20px;
-  font-size: 18px;
-}
-
-div#about > li {
-  font: 1em sans-serif;
-  line-height:0.2;
-  margin-top: 5px;
-  padding-top: 30px;
-  margin-left: 40px;
-  margin-right: 20px;
-  padding-bottom: 10px;
-  font-size: 18px;
-  font-weight: 500;
-}
-
 div#itmd {
   background-size: cover;
   background-color: #2C7E97;
   color: white;
-  text-align: center;
+  padding: 20px;
+  text-align: left;
 }
 
 div#itmd h1 {
@@ -547,7 +471,7 @@ div#itmd p{
   padding-bottom: 10px;
   line-height: 2;
   margin-top: 5px;
- text-align: justify;
+
 }
 div#itmd li{
   margin-left: 10px;
@@ -679,7 +603,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     margin-bottom: 10px;
   }
 
-  div#isudVideo{
+  div#itmdVideo{
     max-width: 70%;
     padding-bottom: 40%;
   }
@@ -726,7 +650,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     margin-bottom: 13px;
   }
 
-  div#isudVideo{
+  div#itmdVideo{
     max-width: 60%;
     padding-bottom: 30%;
   }
@@ -772,11 +696,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     font-size: 1.2em;
    }
 
-  p#DaUText{
-    font-size: 1em;
-  }
-
-  div#isudVideo{
+  div#itmdVideo{
     max-width: 40%;
     padding-bottom: 20%;
   }
@@ -787,10 +707,6 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
   }
   #map, #about,#con  {
     max-width: 72.444em;
-  }
-  #about {
-    margin-right: auto;
-    margin-left: auto;
   }
   #sign_up_box {
     max-width: 40.444em;
