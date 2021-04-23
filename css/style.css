@@ -530,6 +530,13 @@ div#about > li {
   font-size: 18px;
   font-weight: 500;
 }
+
+div#con {
+  background-color: #2C7E97;
+  color: white;
+  text-align: center;
+}
+
 div#con h1 {
   padding: 10px;
   font-family: inherit;
@@ -730,6 +737,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     width: 80%;
   }
 
+
 }
 
 /*Desktops, Large Monitors*/
@@ -740,7 +748,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 		margin-top: 65px;
 	}
 
-/*Home Page CSS */
+/*Home Page CSS*/
 
   .navbar li a {
     padding: 20px 40px;
