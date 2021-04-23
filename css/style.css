@@ -547,15 +547,16 @@ div#con {
 }
 
 div#con h1 {
-  padding: 25px;
+  font-size: 1.2em;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
 }
 div#con h2 {
-  font-size: 1.2em;
+  font-size: 25px;
   font-weight: bold;
-  padding: 10px;
+  padding: 20px;
+  line-height: 2;
 }
 div#con p{
   margin-left: 10px;
