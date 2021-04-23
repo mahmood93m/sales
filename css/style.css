@@ -277,7 +277,7 @@ input[type=date] {
   background-color: #347575;
 }
 
-/*Background Color and Font Stacks*/
+/*Background Color and Font*/
 
 body, html {
   background-color: #2C7E97;
@@ -311,7 +311,7 @@ header {
   margin-bottom: 220px;
 }
 
-.banner_pic {
+.logo-header {
   margin-top: 50px;
   max-width: 135px;
   max-height: 132px;
@@ -323,11 +323,7 @@ header {
   padding: 1%;
 }
 
-.face {
-  display: inline-block;
-	position: relative;
-}
-/*Home Page Specific CSS */
+/*Specific CSS */
 
 div#slider{
   max-width: 100%;
@@ -336,7 +332,6 @@ div#slider{
   overflow: hidden;
   position: relative;
 }
-
 
 .slides{
   width: 100%;
@@ -356,57 +351,6 @@ main#home{
   
 }
 
-
-div#isud{
-  background-color: #2C7E97;
-  color: white;
-  text-align: left;
-  padding-bottom: 12px;
-  line-height: 30px;
-}
-div#isud > h1{
-  font-size: 1.44em;
-  font-weight: bold;
-  padding: 25px;
-}
-
-div#isud > h2{
-  font-size: 1.2em;
-  font-weight: bold;
-  padding: 5px;
-  
-}
-
-div#isud > p{
-  margin-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  text-align: left;
-}
-
-div#itmdVideo{
-  max-height: 50%;
-  max-width: 96%;
-  margin: auto;
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  border: 0px;
-}
-
-.itmdVideo{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 footer{
   background-color: #1e4b58;
   color: white;
@@ -482,14 +426,32 @@ div#itmd li{
   margin-top: 5px;
   text-align: justify;
 }
-strong {
-  font-weight: bold;
+
+div#itmdVideo{
+  max-height: 50%;
+  max-width: 96%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 0px;
 }
-mark {
-  background-color: #E9E125;
+
+.itmdVideo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-/* css for the events page. DJ RYBSKI */
-#sign_up_box {
+
+/* css for the contact page */
+#signup-form {
   padding: 20px;
   display:grid;
   grid-template-columns: repeat(2,1fr);
@@ -592,12 +554,6 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 
 /*Home Page CSS - Geldi Omeri*/
 
-  #isud  h1, h2, #isud p{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
 
   p.end{
     margin-bottom: 10px;
@@ -612,10 +568,10 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  #sign_up_box {
+  #signup-form {
     width: 100%;
   }
-  #con {
+  #itmd {
     text-align: left;
     font-size: 1.125em;
   }
@@ -631,7 +587,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 /*Tablets, Small laptops*/
 
 @media screen and (min-width: 768px){
-	.banner_pic{
+	.logo-header{
 		margin-top: 55px;
 	}
 
@@ -639,11 +595,6 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 
   .navbar li a {
     padding: 15px 30px;
-  }
-
-
-  #isud > h1, h2, #isud p{
-    width: 60%;
   }
 
   p.end{
@@ -659,7 +610,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     padding-top: 35px;
     padding-bottom: 35px;
   }
-  #sign_up_box {
+  #signup-form {
     width: 80%;
   }
 
@@ -670,7 +621,7 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
 
 @media screen and (min-width: 1024px){
 
-	.banner_pic{
+	.logo-header{
 		margin-top: 65px;
 	}
 
@@ -679,10 +630,6 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
   .navbar li a {
     padding: 20px 40px;
   }
-
-  #isud > h1, h2,#isud p,#con{
-    width: 50%;
-	}
 
   h1{
     font-size: 1.728em;
@@ -705,13 +652,13 @@ input[type="submit"]:hover, input[type="submit"]:focus  {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  #map, #about,#con  {
+  #map,#itmd  {
     max-width: 72.444em;
   }
-  #sign_up_box {
+  #signup-form {
     max-width: 40.444em;
   }
-  #con {
+  #itmd {
     margin-right: auto;
     margin-left: auto;
   }
