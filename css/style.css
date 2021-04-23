@@ -25,6 +25,7 @@ footer, header, hgroup, menu, navbarbar, section {
 }
 body {
 	line-height: 1;
+  
 }
 ol, ul {
 	list-style: none;
@@ -276,10 +277,17 @@ input[type=date] {
 /*Background Color and Font Stacks*/
 
 body, html {
-  background-color: White;
+  background-color: #2C7E97;
   font-family:"Segoe UI", Helvetica, Tahoma, sans-serif;
   color: black;
 }
+
+header {
+  background-color: #ffffff;
+  font-family:"Segoe UI", Helvetica, Tahoma, sans-serif;
+  color: black;
+}
+
 div#about > html {
   font-size: 1.125em;
 }
@@ -532,13 +540,14 @@ div#about > li {
 }
 
 div#con {
+  background-size: cover;
   background-color: #2C7E97;
   color: white;
   text-align: center;
 }
 
 div#con h1 {
-  padding: 10px;
+  padding: 25px;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
@@ -551,9 +560,17 @@ div#con h2 {
 div#con p{
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 1.3em;
+  font-size: 20px;
   padding-bottom: 10px;
-  line-height: 1.5;
+  line-height: 2;
+  margin-top: 5px;
+}
+div#con li{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 1;
   margin-top: 5px;
 }
 strong {
