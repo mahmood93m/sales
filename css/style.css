@@ -413,27 +413,6 @@ div#isudVideo{
   display: block;
 }
 
-div#congress{
-  background-color: #858C9B;
-  margin-top: 1%;
-  margin-bottom: 0%;
-  padding-bottom: 1px;
-  text-align: center;
-}
-
-div#congress > h1{
-  font-size: 1.44em;
-  font-weight: bold;
-  padding: 18px;
-  padding-bottom: 12px;
-}
-
-div#congress > p{
-  padding: 2px;
-  padding-bottom: 5px;
-  color: #2F3648;
-  font-weight: 600;
-}
 
 p.end{
   padding-bottom: 10px;
@@ -542,26 +521,26 @@ div#about > li {
   font-weight: 500;
 }
 
-div#con {
+div#itmd {
   background-size: cover;
   background-color: #2C7E97;
   color: white;
   text-align: center;
 }
 
-div#con h1 {
+div#itmd h1 {
   font-size: 1.2em;
   font-family: inherit;
   font-weight: bold;
   text-align: center;
 }
-div#con h2 {
+div#itmd h2 {
   font-size: 25px;
   font-weight: bold;
   padding: 20px;
   line-height: 2;
 }
-div#con p{
+div#itmd p{
   margin-left: 10px;
   margin-right: 10px;
   font-size: 20px;
@@ -570,7 +549,7 @@ div#con p{
   margin-top: 5px;
  text-align: justify;
 }
-div#con li{
+div#itmd li{
   margin-left: 10px;
   margin-right: 10px;
   font-size: 18px;
