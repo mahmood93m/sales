@@ -568,6 +568,7 @@ div#con p{
   padding-bottom: 10px;
   line-height: 2;
   margin-top: 5px;
+ text-align: justify;
 }
 div#con li{
   margin-left: 10px;
@@ -576,6 +577,7 @@ div#con li{
   padding-bottom: 10px;
   line-height: 1;
   margin-top: 5px;
+  text-align: justify;
 }
 strong {
   font-weight: bold;
